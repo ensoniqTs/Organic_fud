@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+    max-width: 1280px;
+}
+/* header */
+a{
+    text-decoration: none;
+}
+header{
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+
+}
+.header__content{
+    display: flex;
+    height: 210px;   
+    font-size: 18px;
+    line-height: 27px;
+
+ 
+}
+.header__logo{
+     width: 210px;
+    height: 210px;   
+    z-index: 2;
+}
+.header__menu{
+    width: 396px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-top: 39px;
+}
+.menu__item{
+    text-decoration: none;
+    color: #262626;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.icons{
+    
+    margin: 33px 0 0 245px;
+    width: 105px;
+    height: 42px;
+    
+}
+.search{
+    margin-bottom: 5px;
+    width: 29px;
+    height: 29px;
+}
+.finder{
+    margin-bottom: -5px;
+    margin-left: -2px;
+    width: 33px;
+    height: 42px;
+}
+.line{
+    margin: 0 15px;
+}
+.login{
+    margin-top: 28px;
+    margin-left: auto;
+    width: 110px;
+    height: 50px;
+    border: 1px solid #9C9C42;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 11px 31px 12px 31px;
+  
+}
+.login a{
+    text-decoration: none;
+    color: #9C9C42;
+}
+.header__info{
+    position: absolute;
+    width: 1280px;
+    height: 600px;
+    left: 0px;
+    top: 105px;
+    background: linear-gradient(90deg, #9C9C42 0%, rgba(156, 156, 66, 0.2) 100%), url('./images/Rectangle.png');
+    z-index: 1;
+}
+.title{
+    position: absolute;
+    width: 570px;
+    height: 72px;
+    left: 55px;
+    top: 206px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.header__text{
+    position: absolute;
+    width: 570px;
+    height: 27px;
+    left: 55px;
+    top: 284px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;   
+    color: #FFFFFF;    
+}
+.header__btn{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 55px;
+    top: 345px;
+    background: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;  
+    border: 1px solid #FFFFFF;
+
+}
+/* our products*/
+.our__products{
+    background: #E5E5E5;
+  
+    margin-top: 495px;
+    
+}
+.info{
+    height: 818px;
+}
+.product__title{
+    padding-top: 100px;
+    
+}
+.product__text{
+    width: 279px;
+    height: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #262626;
+}
+.two{
+    color: #9C9C42;
+}
+.product__text p{
+    margin: 0;
+}
+.product__items{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.product{
+    width: 270px;
+    height: 428px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: Poppins;
+    font-weight: normal;
+    text-align: center;
+
+    color: #262626;
+    
+}
+.product__img{
+    margin: 25px 87px 14px 88px;
+    width: 95px;
+    height: 200px;
+}
+.name{
+    width: 100px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.mark{
+    width: 234px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #262626;
+    margin: 5px auto;
+}
+.mark span{
+    font-weight: 500;
+}
+.price{
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: 14px auto;
+    color: #9C9C42;
+}
+
+.buy{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #9C9C42;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.buy img{
+    width: 29px;
+    height: 29px;
+    margin: 10px 0;
+
+}
+.buy p{
+    width: 102px;
+    height: 27px;
+    margin: auto -1px;
+    padding: 0 0 0 9px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #9C9C42;
+}
+.product__btn{
+    width: 240px;
+    height: 50px;
+    margin: 40px auto;
+    background: #9C9C42;
+    border-radius: 10px;
+    display: flex;
+    
+    
+}
+.product__btn p{
+    font-family: Poppins;
+    font-style: normal;
+    width: 159px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 12px 9px 11px 26px;
+    
+
+}
+.product__btn img{
+    width: 22px;
+    height: 17px;
+    margin: 17px 0;
+
+}
+/* about__us */
+.about__us{
+    height: 481px;
+    background-image: url('./images/about_us.jpg');
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+}
+
+.about{
+    padding: 101px 0 0;
+}
+.about__text{
+    width: 570px;
+    height: 101px;
+    margin-top: 40px;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+.find{
+    width: 180px;
+    margin: 49px 0;
+}
+.find p{
+    margin: 12px 9px 11px 27px;
+}
+/* BLOG------------------------------------------ */
+.blog{
+    height: 676px;
+    font-family: Poppins;
+    font-style: normal;
+
+}
+.blog__title{
+    display: flex;
+    padding-top: 100px;
+}
+.blog__title a{
+    text-transform: lowercase;
+    width: 90px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9C9C42;
+}
+.more{
+    margin-left: 14px;
+    display: block;
+    height: 24px;
+}
+.more img{
+    margin: 2px 0 -2px -2px;
+}
+.blog__items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blog__item{
+    margin-top: 50px;
+    width: 370px;
+    height: 386px;
+}
+.blog__image{
+    height: 225px;
+    background-image: url('./images/blog/blog_img_1.jpg');  
+}
+.img__second{
+    height: 225px;
+    background-image: url('./images/blog/blog_img_2.jpg');
+}
+.img__three{
+    height: 225px;
+    background-image: url('./images/blog/blog_img_3.jpg');
+}
+.more__img{
+    width: 49px;
+    height: 50px;
+    margin-left: auto;   
+}
+.more__img img{
+    margin-top: 175px;
+}
+.blog__view{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    width: 138px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+.date{
+    width: 74px;
+}
+.round{
+    height: 5px;
+    width: 5px;
+    background-color: #9C9C42;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+.view__img img{
+    padding-top: 2px;
+}
+
+.blog-title__text{
+    margin-top: 14px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.blog__text{
+    margin-top: 7px;
+}
+/* recipes----------------------------- */
+.recipes{
+    background-color: #F5F5F5;
+    height: 558px;
+    
+}
+.right{
+    transform: translateX(-3px);
+}
+.recipes__items{
+    margin-top: 51px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 99px;
+}
+.recipes__item{
+    width: 370px;
+    height: 268px;
+}
+.recipes__img{
+    height: 225px;
+    background-image: url('./images/recipec/recipec_1.jpg');
+}
+.recipes__img__second{
+    height: 225px;
+    background-image: url('./images/recipec/recipec_2.jpg');
+}
+.recipes__img__three{
+    height: 225px;
+    background-image: url('./images/recipec/recipec_3.jpg');
+}
+.img__link {
+    height: 38px;
+    width: 110px;
+    border-radius: 0px 0px 15px 0px;
+    background-color: #9C9C42;
+}
+.link__second{
+    width: 89px;
+}
+.link__three{
+    width: 130px;
+}
+.img__link a{
+    width: 76px;
+    height: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: auto 19px auto 15px;
+    
+    
+}
+.a{
+    padding-top: 6px;
+}
+.recipes__text{
+    height: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #262626;
+    margin-top: 14px;
+    transform: translateX(-1px);
+}
+.footer{
+    height: 255px;
+    background: #9C9C42;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    
+}
+.footer__content{
+    width: 913px;
+    margin: 0 auto; 
+
+}
+.first__line{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first__line p{
+    margin: 0 0 20px;
+    font-weight: 500;
+}
+.first__line a{
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 10px;
+}
+.webshop{
+    width: 173px;
+    transform: translateX(4px);
+}
+.legal{
+    width: 153px;
+    transform: translateX(-3px);
+}
+.contact{
+    margin-left: 2px;
+    transform: translateX(-5px);
+}
+
+
+
+
+
+
+
+
