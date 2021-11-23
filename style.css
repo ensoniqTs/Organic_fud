@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    max-width: 1280px;
+    width: 1280px;
 }
 /* header */
 a{
@@ -13,8 +13,38 @@ header{
     font-weight: normal;
 }
 .container{
-    max-width: 1170px;
+    width: 1170px;
     margin: auto;
+
+}
+@media (width:1200px) {
+    body{
+        width: 90%;
+    }
+    .container{
+        width: 1024px;
+    }
+}
+@media (width:1024px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (width:970px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (width:740px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (width:360px) {
+    
+    .container{
+        width: 90%;
+    }
 
 }
 .header__content{
@@ -26,7 +56,7 @@ header{
  
 }
 .header__logo{
-     width: 210px;
+    width: 210px;
     height: 210px;   
     z-index: 2;
 }
@@ -75,12 +105,20 @@ header{
     box-sizing: border-box;
     border-radius: 10px;
     padding: 11px 31px 12px 31px;
-  
+    cursor: pointer;
+}
+.login:hover{
+    background-color: rgba(228, 228, 228, 0.521);
+    
+}
+.login:active{
+    background: none;
 }
 .login a{
     text-decoration: none;
-    color: #9C9C42;
+    color: #9C9C42;   
 }
+
 .header__info{
     position: absolute;
     width: 1280px;
@@ -126,12 +164,18 @@ header{
     line-height: 24px;
     color: #FFFFFF;  
     border: 1px solid #FFFFFF;
-
+    cursor: pointer;
+}
+.header__btn:hover{
+    background-color: rgba(228, 228, 228, 0.521);
+}
+.header__btn:active{
+    background: none;
 }
 /* our products*/
 .our__products{
     background: #E5E5E5;
-  
+    width: 1280px;
     margin-top: 495px;
     
 }
@@ -275,6 +319,7 @@ header{
 }
 /* about__us */
 .about__us{
+    width: 1280px;
     height: 481px;
     background-image: url('./images/about_us.jpg');
     /* transform: matrix(-1, 0, 0, 1, 0, 0); */
@@ -302,6 +347,7 @@ header{
 }
 /* BLOG------------------------------------------ */
 .blog{
+    width: 1280px;
     height: 676px;
     font-family: Poppins;
     font-style: normal;
@@ -399,6 +445,7 @@ header{
 .recipes{
     background-color: #F5F5F5;
     height: 558px;
+    width: 1280px;
     
 }
 .right{
@@ -466,6 +513,7 @@ header{
     transform: translateX(-1px);
 }
 .footer{
+    width: 1280px;
     height: 255px;
     background: #9C9C42;
     color: #FFFFFF;
