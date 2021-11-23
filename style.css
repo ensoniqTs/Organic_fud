@@ -18,43 +18,33 @@ header{
 
 }
 @media (width:1280px) {
-    body{
-        width: 1280px;
-    }
+    
     .container{
         width: 90%;
     }
 }
 @media (width:1024px) {
-    body{
-        width: 1024px;
-    }
+   
     .container{
         width: 90%;
     }
 }
 @media (width:970px) {
-    body{
-        width: 970px;
-    }
+    
     .container{
         width: 90%;
     }
 }
 @media (width:740px) {
-    body{
-        width: 740px;
-    }
+    
     .container{
         width: 90%;
     }
 }
 @media (width:360px) {
-    body{
-        width: 360px;
-    }
+   
     .container{
-        width: 90%;
+        width: 350px;
     }
 
 }
